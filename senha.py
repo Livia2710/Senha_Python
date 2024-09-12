@@ -97,7 +97,7 @@ clip_button.grid(row=0, column=1, padx=10)
 
 # Botão para limpar os campo (Laanja)
 clear_button = ctk.CTkButton(my_frame, text="Limpar", command=clear_entry, image=clean_image, compound="left", font=("Helvetica", 16), fg_color="#ff9800", hover_color="#f57c00")
-clear_button.grid(row=0, column=0, padx=10)
+clear_button.grid(row=0, column=2, padx=10)
 
 # Inicia o loop principal da aplicação
 root.mainloop()
